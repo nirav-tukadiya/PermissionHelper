@@ -1,8 +1,12 @@
 /* Create PermissionHelper object */
+
+
 PermissionsHelper helper = new PermissionsHelper(context);
 
 
 /* Check If permission is granted or not */
+
+
 if(helper.isPermissionGranted(CAMERA))
 {
     //granted
@@ -12,6 +16,8 @@ if(helper.isPermissionGranted(CAMERA))
 
 
 /* Request permission */
+
+
 helper.requestPermissions(new String[]{CAMERA}, new PermissionCallback() {
                     @Override
                     public void onResponseReceived(final HashMap<String, PermissionsHelper.PermissionGrant> mapPermissionGrants) {
