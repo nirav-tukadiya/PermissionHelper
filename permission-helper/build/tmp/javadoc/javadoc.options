@@ -1,0 +1,7 @@
+-classpath '/Users/niravtukadiya/Library/Android/sdk/platforms/android-25/android.jar'
+-d '/Users/niravtukadiya/AndroidStudioProjects/PermissionHelper/permission-helper/build/docs/javadoc'
+-doctitle 'permission-helper 1.0.1 API'
+-quiet 
+-windowtitle 'permission-helper 1.0.1 API'
+'/Users/niravtukadiya/AndroidStudioProjects/PermissionHelper/permission-helper/src/main/java/com/neurenor/permissions/PermissionCallback.java'
+'/Users/niravtukadiya/AndroidStudioProjects/PermissionHelper/permission-helper/src/main/java/com/neurenor/permissions/PermissionsHelper.java'
